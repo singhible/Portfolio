@@ -18,17 +18,17 @@ const Navbar = () => {
                 <li>Contact</li>
             </ul>
         {/** Hamburger menu*/}
-        <div className='md:hidden z-10'>
-            <FaBars />
+        <div onclick={handleclick} className='md:hidden z-10'>
+            {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/*Mobile menu */}
-           <ul className='hidden absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'>
-                <li className='py-6' text-4xl>Home</li>
-                <li className='py-6' text-4xl>About</li>  
-                <li className='py-6' text-4xl>SKills</li>
-                <li className='py-6' text-4xl>Projects</li>
-                <li className='py-6' text-4xl>Contact</li>
+           <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+                <li className='py-6 text-4xl'>Home</li>
+                <li className='py-6 text-4xl'>About</li>  
+                <li className='py-6 text-4xl'>SKills</li>
+                <li className='py-6 text-4xl'>Projects</li>
+                <li className='py-6 text-4xl'>Contact</li>
             </ul>
 
         {/*Social icons*/}
