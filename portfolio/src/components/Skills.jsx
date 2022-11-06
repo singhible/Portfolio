@@ -9,11 +9,11 @@ import Github from "../assests/github.png";
 
 const Skills = () => {
   return (
-    <div name="Skills" className="bg-[#0a192f] text-gray-300">
+    <div name="Skills" className="bg-[#0a192f] w-full h-screen text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
-            Experience
+            Skills
           </p>
           <p className="py-4">
             These are the technologies that I'm familiar with
