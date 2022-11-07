@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assests/logo.png";
+import {Link} from 'react-scroll';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleclick = () => setNav(!nav);
@@ -12,12 +13,32 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" style={{ width: "50px" }} />
       </div>
       {/* menu*/}
-      <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>SKills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <ul className='hidden md:flex'>
+        <li>
+          <Link to='Home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='About' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='Skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='Work' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to='Contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       {/** Hamburger menu*/}
       <div onclick={handleclick} className="md:hidden z-10">
