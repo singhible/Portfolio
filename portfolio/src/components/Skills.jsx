@@ -4,7 +4,6 @@ import CSS from "../assests/css.png";
 import Javascript from "../assests/javascript.png";
 import REACTLOGO from "../assests/react.png";
 import Node from "../assests/node.png";
-import Django from "../assests/Django.png";
 import Github from "../assests/github.png";
 
 const Skills = () => {
