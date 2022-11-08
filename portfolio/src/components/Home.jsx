@@ -1,5 +1,4 @@
 import React from "react";
-import Work from "./Work";
 import {Link} from 'react-scroll';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { HiArrowNarrowRight } from "react-icons/hi";
