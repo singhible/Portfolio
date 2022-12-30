@@ -18,10 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              skladjfhklashjdfkasjdfkj kjsda fhklasdjh fsdfjh.
-              hsdfkhjskadhfiashdfbnasidjnciasjdnijasndfiojasi. uiashdfinsidn in
-              in in iun ugy avu noamo jnuv tyctr y on om om ijbny gvt cftygv ij
-              nokm
+              I am a third year university student who is passionate about software development.
+              My current work experience has given me the oppurtunity to work on a full stack application and modification of
+              the Linux Kernel. I love to read about new tools and try to adhere to the best software practices possible. 
             </p>
           </div>
         </div>
