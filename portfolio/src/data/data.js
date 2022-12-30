@@ -1,34 +1,27 @@
 import ComingSoon from '../assests/comingsoon.png'
-
+import webOS from '../assests/mate-desktop.jpg'
+import portfolio from '../assests/portfolio.png'
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:ComingSoon,
-        github:"",
-        live:"",
+        name:"My portfolio website",
+        image:portfolio,
+        github:"https://github.com/singhible/Portfolio",
+        live:"https://babanpreet.netlify.app/",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:ComingSoon,
-        github:"",
+        name:"A web desktop enviornment (in progress)",
+        image:webOS,
+        github:"https://github.com/singhible/babOS",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"Photography Website (in progress)",
         image:ComingSoon,
-        github:"",
+        github:"https://github.com/singhible/Photography-Website",
         live:"",
     },
-    {
-        id:4,
-        name:"React JS Application",
-        image:ComingSoon,
-        github:"",
-        live:"",
-    },
-
 
 ]
