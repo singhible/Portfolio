@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assests/Real_LOGO2.png";
 import {Link} from 'react-scroll';
+import Pdf from '../assests/Resume_.pdf'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleclick = () => setNav(!nav);
@@ -114,7 +115,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/" target="_blank" rel="noopener noreferrer"
+              href= {Pdf} target="_blank" rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
